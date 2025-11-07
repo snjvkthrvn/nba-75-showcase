@@ -1,7 +1,7 @@
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
+import ShotChart from "@/components/ShotChartWrapper";
 import StatBar from "@/components/StatBar";
 import {
   getPlayerBySlug,
@@ -19,15 +19,6 @@ import {
 } from "@/lib/metrics";
 
 import type { Metadata } from "next";
-
-const ShotChart = dynamic(() => import("@/components/ShotChart"), {
-  ssr: false,
-  loading: () => (
-    <div className="flex h-64 items-center justify-center rounded-3xl border border-white/10 bg-white/[0.03] text-sm text-white/60">
-      Loading shot chart…
-    </div>
-  ),
-});
 
 const BLUR_DATA_URL =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=";
