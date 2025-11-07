@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "michael-jordan",
+    "shots": [
+      { "x": -4.2, "y": 19.1, "make": true },
+      { "x": -6.1, "y": 16.3, "make": true },
+      { "x": -1.5, "y": 12.4, "make": false },
+      { "x": 3.3, "y": 20.2, "make": true },
+      { "x": 6.6, "y": 17.4, "make": true },
+      { "x": 0.4, "y": 6.8, "make": false },
+      { "x": -7.8, "y": 25.0, "make": true },
+      { "x": -10.5, "y": 28.5, "make": true },
+      { "x": 11.5, "y": 27.3, "make": false },
+      { "x": 0.9, "y": 15.6, "make": true },
+      { "x": -3.1, "y": 9.1, "make": false },
+      { "x": 4.8, "y": 11.2, "make": true },
+      { "x": 8.4, "y": 22.9, "make": false },
+      { "x": -12.8, "y": 29.4, "make": true },
+      { "x": -2.7, "y": 18.6, "make": true }
+    ]
+  },
+  {
+    "slug": "lebron-james",
+    "shots": [
+      { "x": -8.5, "y": 23.7, "make": true },
+      { "x": 9.8, "y": 24.5, "make": true },
+      { "x": 1.2, "y": 7.4, "make": true },
+      { "x": 4.6, "y": 12.9, "make": false },
+      { "x": -2.2, "y": 18.1, "make": true },
+      { "x": -11.3, "y": 28.4, "make": false },
+      { "x": 13.7, "y": 28.0, "make": true },
+      { "x": 0.4, "y": 4.2, "make": true },
+      { "x": -6.4, "y": 13.5, "make": false },
+      { "x": 7.9, "y": 16.8, "make": true },
+      { "x": -3.8, "y": 22.4, "make": false },
+      { "x": 10.5, "y": 27.9, "make": true },
+      { "x": -9.2, "y": 25.7, "make": true },
+      { "x": 2.7, "y": 9.9, "make": false },
+      { "x": -1.0, "y": 13.8, "make": true }
+    ]
+  },
+  {
+    "slug": "kareem-abdul-jabbar",
+    "shots": [
+      { "x": -1.9, "y": 6.1, "make": true },
+      { "x": 2.5, "y": 4.4, "make": true },
+      { "x": -3.2, "y": 8.5, "make": false },
+      { "x": 4.1, "y": 11.6, "make": true },
+      { "x": -2.4, "y": 10.3, "make": true },
+      { "x": 1.1, "y": 8.9, "make": true },
+      { "x": -0.7, "y": 5.2, "make": true },
+      { "x": 3.3, "y": 6.5, "make": false },
+      { "x": -4.6, "y": 9.8, "make": true },
+      { "x": 0.6, "y": 3.9, "make": true },
+      { "x": -1.4, "y": 7.4, "make": true },
+      { "x": 2.9, "y": 10.9, "make": false },
+      { "x": -3.8, "y": 12.1, "make": true },
+      { "x": 1.7, "y": 5.8, "make": true },
+      { "x": -2.1, "y": 4.6, "make": true }
+    ]
+  },
+  {
+    "slug": "magic-johnson",
+    "shots": [
+      { "x": -7.3, "y": 20.5, "make": true },
+      { "x": 5.2, "y": 14.6, "make": false },
+      { "x": -3.6, "y": 16.2, "make": true },
+      { "x": 1.4, "y": 8.8, "make": true },
+      { "x": 8.1, "y": 22.7, "make": false },
+      { "x": -2.7, "y": 7.5, "make": true },
+      { "x": 4.5, "y": 11.3, "make": true },
+      { "x": -9.5, "y": 24.1, "make": false },
+      { "x": 6.4, "y": 18.8, "make": true },
+      { "x": -0.6, "y": 5.7, "make": true },
+      { "x": 2.8, "y": 12.6, "make": true },
+      { "x": -6.1, "y": 19.4, "make": false },
+      { "x": 7.7, "y": 23.3, "make": true },
+      { "x": -1.9, "y": 9.4, "make": true },
+      { "x": 3.5, "y": 15.7, "make": true }
+    ]
+  },
+  {
+    "slug": "larry-bird",
+    "shots": [
+      { "x": -12.6, "y": 26.9, "make": true },
+      { "x": 11.9, "y": 27.5, "make": true },
+      { "x": -8.4, "y": 20.8, "make": true },
+      { "x": 9.2, "y": 18.7, "make": false },
+      { "x": -5.6, "y": 16.1, "make": true },
+      { "x": 2.4, "y": 9.6, "make": true },
+      { "x": -3.1, "y": 12.7, "make": false },
+      { "x": 5.8, "y": 15.5, "make": true },
+      { "x": -10.7, "y": 25.3, "make": true },
+      { "x": 7.3, "y": 22.1, "make": false },
+      { "x": -1.5, "y": 6.9, "make": true },
+      { "x": 3.9, "y": 11.1, "make": true },
+      { "x": -6.8, "y": 17.9, "make": true },
+      { "x": 8.6, "y": 24.8, "make": false },
+      { "x": -4.2, "y": 14.2, "make": true }
+    ]
+  },
+  {
+    "slug": "bill-russell",
+    "shots": [
+      { "x": -1.8, "y": 6.3, "make": true },
+      { "x": 1.5, "y": 5.4, "make": true },
+      { "x": -3.4, "y": 10.5, "make": false },
+      { "x": 2.7, "y": 8.8, "make": true },
+      { "x": -0.9, "y": 7.1, "make": true },
+      { "x": 3.6, "y": 11.4, "make": false },
+      { "x": -2.3, "y": 5.9, "make": true },
+      { "x": 0.4, "y": 4.2, "make": true },
+      { "x": -4.8, "y": 9.8, "make": true },
+      { "x": 1.8, "y": 6.7, "make": false },
+      { "x": -1.1, "y": 4.8, "make": true },
+      { "x": 2.9, "y": 9.6, "make": false },
+      { "x": -3.7, "y": 8.1, "make": true },
+      { "x": 0.9, "y": 5.2, "make": true },
+      { "x": -2.0, "y": 7.5, "make": true }
+    ]
+  }
+]

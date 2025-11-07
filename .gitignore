@@ -16,13 +16,17 @@
 # next.js
 /.next/
 /out/
+.turbo
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
 *.pem
+/data/raw/
+!/data/raw/.gitkeep
 
 # debug
 npm-debug.log*

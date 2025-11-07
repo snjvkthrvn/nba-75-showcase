@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background-color: #0b0c0e;
+}
+
+body {
+  @apply bg-base text-white font-sans antialiased;
+}
+
+::selection {
+  @apply bg-accent-400/60 text-white;
+}
+
+a {
+  @apply text-white/80 transition-colors duration-200 ease-smooth hover:text-white;
+}
+
+@layer base {
+  *, *::before, *::after {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply min-h-screen;
+    background-image: radial-gradient(circle at top left, rgba(74, 94, 127, 0.25), transparent 55%),
+      radial-gradient(circle at 20% 45%, rgba(68, 131, 181, 0.18), transparent 60%),
+      radial-gradient(circle at 80% 20%, rgba(58, 82, 115, 0.25), transparent 50%);
+    background-blend-mode: screen;
+  }
+
+  .glass {
+    @apply bg-glass backdrop-blur-xl border border-white/10 shadow-glass;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
